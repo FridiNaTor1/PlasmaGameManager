@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76CE7A8B-88DD-4FEB-A6A3-0699EA1874AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlasmaGameManager.Protocol", "src\PlasmaGameManager.Protocol\PlasmaGameManager.Protocol.csproj", "{DAD27495-9D32-4D52-882B-FDEC4CAD0DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlasmaGameManager.Server", "src\PlasmaGameManager.Server\PlasmaGameManager.Server.csproj", "{07BA52BE-1BCB-4843-B0FA-08D7330BD5B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlasmaGameManager.ReTools", "src\PlasmaGameManager.ReTools\PlasmaGameManager.ReTools.csproj", "{ED09D790-53A4-4615-8BD9-BA876C12463B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2EB78EF0-AC51-443B-A38B-E8B9DB909802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlasmaGameManager.Tests", "tests\PlasmaGameManager.Tests\PlasmaGameManager.Tests.csproj", "{D7B0A3BB-7076-45E3-B2B3-37F4E78C3405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAD27495-9D32-4D52-882B-FDEC4CAD0DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD27495-9D32-4D52-882B-FDEC4CAD0DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD27495-9D32-4D52-882B-FDEC4CAD0DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD27495-9D32-4D52-882B-FDEC4CAD0DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BA52BE-1BCB-4843-B0FA-08D7330BD5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BA52BE-1BCB-4843-B0FA-08D7330BD5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BA52BE-1BCB-4843-B0FA-08D7330BD5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BA52BE-1BCB-4843-B0FA-08D7330BD5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED09D790-53A4-4615-8BD9-BA876C12463B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED09D790-53A4-4615-8BD9-BA876C12463B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED09D790-53A4-4615-8BD9-BA876C12463B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED09D790-53A4-4615-8BD9-BA876C12463B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B0A3BB-7076-45E3-B2B3-37F4E78C3405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B0A3BB-7076-45E3-B2B3-37F4E78C3405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B0A3BB-7076-45E3-B2B3-37F4E78C3405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B0A3BB-7076-45E3-B2B3-37F4E78C3405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAD27495-9D32-4D52-882B-FDEC4CAD0DF3} = {76CE7A8B-88DD-4FEB-A6A3-0699EA1874AF}
+		{07BA52BE-1BCB-4843-B0FA-08D7330BD5B0} = {76CE7A8B-88DD-4FEB-A6A3-0699EA1874AF}
+		{ED09D790-53A4-4615-8BD9-BA876C12463B} = {76CE7A8B-88DD-4FEB-A6A3-0699EA1874AF}
+		{D7B0A3BB-7076-45E3-B2B3-37F4E78C3405} = {2EB78EF0-AC51-443B-A38B-E8B9DB909802}
+	EndGlobalSection
+EndGlobal
